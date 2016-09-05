@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Servlet-for_gmail</display-name>
+ <welcome-file-list>
+      <welcome-file>Register.html</welcome-file>
+ </welcome-file-list>
+  
+ <!-- Register servlet -->
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>com.saf.Gmail.Reg</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/display</url-pattern>
+    </servlet-mapping> 
+  
+   <!-- login  servlet -->
+     
+    
+</web-app>

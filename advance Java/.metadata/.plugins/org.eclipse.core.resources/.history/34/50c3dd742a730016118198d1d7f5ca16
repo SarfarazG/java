@@ -1,0 +1,10 @@
+package com.saf.mailling.services;
+
+public class EditpasswordServices  {
+	
+	public void Editpass_Logic(){
+		
+		
+	}
+
+}

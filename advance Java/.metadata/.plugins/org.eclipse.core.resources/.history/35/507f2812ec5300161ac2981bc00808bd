@@ -1,0 +1,104 @@
+package com.saf.mailling.controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.omg.PortableInterceptor.ForwardRequest;
+
+import com.saf.mailling.dao.RegDao;
+import com.saf.mailling.dao.loginDao;
+import com.saf.mailling.dto.RegDto;
+import com.saf.mailling.services.REGServices;
+import com.saf.mailling.uitility.Singleton;
+
+public class RegisterController extends HttpServlet{
+	
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+		
+		String name = req.getParameter("name");
+		System.out.println("name"+name);
+		String ENno =req.getParameter("eno");
+		System.out.println("enrollment"+ENno);
+		String address = req.getParameter("add");
+		System.out.println("address"+address);
+		String mobile =req.getParameter("mno");
+		System.out.println("mobile"+mobile);
+		String branch = req.getParameter("branch");
+		System.out.println("branch"+branch);
+		String email = req.getParameter("email");
+		System.out.println("email"+email);
+		String pasd = req.getParameter("pass");
+		System.out.println("pass"+pasd);
+		
+		RegDto g = new RegDto();
+		
+		if(name!=null && email!=null){
+			
+			if(name!="" && email!="")
+			{
+					if(name.length()>3 && email.length()>3)
+					{
+						g.setEmail(email);
+						g.setName(name);g.setAddress(address);
+						g.setBranch(branch);
+						g.setEno(ENno);
+						g.setMobile(mobile);
+						g.setPassword(pasd);
+						
+						try {
+								
+							REGServices s = new REGServices();
+							RegDto a = s.regsdata(g);
+							
+							if(a!=null){
+								resp.sendRedirect("succesful.jsp");	
+								loginDao ld = new loginDao();
+								RegDto b = ld.login_Data(g);
+								if(b!=null){
+									System.out.println("data entered succesfully in login table");
+								}
+								else{
+									System.out.println("failed to enter  data");
+								}
+							}else {
+								resp.sendRedirect("Errors.jsp");
+							}
+							}catch (Exception e) {	
+								System.out.println("error in controller");
+							}
+					}						
+					else
+					{
+						System.out.println("error inside defining length");
+						req.setAttribute("k1", "");
+						req.getRequestDispatcher("register.jsp").forward(req, resp);		
+					}
+			}
+			else
+			{
+				System.out.println("error inside defining empty");
+				req.setAttribute("k2","");
+				req.getRequestDispatcher("register.jsp").forward(req, resp);
+			}
+		}
+		else
+		{
+			System.out.println("error inside defining null");
+			req.setAttribute("k3","");
+			req.getRequestDispatcher("register.jsp").forward(req, resp);
+		}
+		
+}
+}		

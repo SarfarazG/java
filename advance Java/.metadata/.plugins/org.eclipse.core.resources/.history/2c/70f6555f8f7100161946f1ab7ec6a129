@@ -1,0 +1,12 @@
+package com.saf.mailling.dao;
+
+import com.saf.mailling.dto.RegDto;
+
+public class EditProfileDao {
+	
+	public void EditProfile_Query(RegDto rd2){
+		
+	}
+	
+
+}

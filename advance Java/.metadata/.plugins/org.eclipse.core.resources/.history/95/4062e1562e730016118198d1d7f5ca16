@@ -1,0 +1,29 @@
+package com.saf.mailling.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.saf.mailling.dto.RegDto;
+import com.saf.mailling.uitility.Singleton;
+
+public class EditPasswordDao {
+	
+	public void get_pass(String Email){
+		
+		Singleton s = Singleton.getS();
+		Connection con =s.getCon();
+
+		try {
+			PreparedStatement pstmt =con.prepareStatement("select PASSWORD from mailing.login ");
+			pstmt.executeQuery();
+			
+			
+		} catch (SQLException e) {
+			
+			e.printStackTrace();
+		}
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.saf.mailling.dao;
+
+public class EditPasswordDao {
+
+}

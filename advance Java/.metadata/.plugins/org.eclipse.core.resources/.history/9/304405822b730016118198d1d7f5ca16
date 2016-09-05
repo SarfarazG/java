@@ -1,0 +1,41 @@
+package com.saf.mailling.controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import com.saf.mailling.dto.EditpwDto;
+import com.saf.mailling.services.EditpasswordServices;
+
+public class EditPasswordController  extends HttpServlet{
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+		String Old=req.getParameter("oldpass");
+		String New=req.getParameter("newpass");
+		String Confirm=req.getParameter("confirmpass");
+		
+		EditpwDto edp = new EditpwDto();
+		edp.setOldpass(Old);
+		edp.setNewpass(New);
+		edp.setConfirmpass(Confirm);
+		
+		EditpasswordServices eps = new EditpasswordServices();
+		eps.Editpass_Logic(edp);
+		
+		
+		
+		
+	}
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+		doPost(req, resp);
+	}
+
+}

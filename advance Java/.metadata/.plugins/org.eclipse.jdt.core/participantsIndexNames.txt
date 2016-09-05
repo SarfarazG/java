@@ -1,0 +1,13 @@
+INDEX VERSION 1.126
+D:\COLLEGE DOCUM\programming\advance Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1134906242.index
+\mailing system\src
+D:\COLLEGE DOCUM\programming\advance Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2333696611.index
+\ajax_demo\src
+D:\COLLEGE DOCUM\programming\advance Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2092071842.index
+\mailing_system\src
+D:\COLLEGE DOCUM\programming\advance Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\565786701.index
+\mailing system\src
+D:\COLLEGE DOCUM\programming\advance Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3788742457.index
+\mail-basic-2\src
+D:\COLLEGE DOCUM\programming\advance Java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1292821053.index
+\mailing_system\src

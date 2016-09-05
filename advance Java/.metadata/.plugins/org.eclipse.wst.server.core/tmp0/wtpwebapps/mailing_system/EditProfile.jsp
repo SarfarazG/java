@@ -1,0 +1,30 @@
+<%@page import="com.saf.mailling.dto.RegDto"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body > 
+
+<form action="editprofile" method="get">
+<table border="1" align="center">
+
+<%RegDto rd=(RegDto)session.getAttribute("profile");%>
+<tr><td><%String ans=(String)session.getAttribute("profileupdate"); %>
+<%if(ans!=null){ %>
+<%=ans %>
+<%} %> <h3><a href="EditPass.jsp">Change_Password</a></h3></td></tr>
+<tr><td>NAME:</td><td><input type="text" name="name" value="<%= rd.getName()%>"></td></tr>
+<tr><td>EMAIL:</td><td><input type="text" name="email" value="<%= rd.getEmail()%>"></td></tr>
+<tr><td>MOBILE:</td><td><input type="text" name="mob" value="<%= rd.getMobile()%>"></td></tr>
+<tr><td>BRANCH:</td><td><input type="text" name="branch" value="<%= rd.getBranch()%>"></td></tr>
+<tr><td>ENROLLMENT_NO:</td><td><input type="text" name="enroll" value="<%= rd.getEno()%>"></td></tr>
+<tr><td>ADDRESS:</td><td><input type="text" name="add" value="<%= rd.getAddress()%>"></td></tr>
+<tr><td><input type="submit" value="Update"></td></tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+package com.saf.mailling.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import com.saf.mailling.dto.RegDto;
+import com.saf.mailling.uitility.Singleton;
+
+public class EditProfileDao {
+	
+	public void EditProfile_Query(RegDto rd2){
+		
+		Singleton s = Singleton.getS();
+		Connection con = s.getCon();
+		
+		PreparedStatement pstmt;
+		
+		
+	}
+	
+
+}

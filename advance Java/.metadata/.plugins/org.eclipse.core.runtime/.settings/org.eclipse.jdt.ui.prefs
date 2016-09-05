@@ -1,0 +1,22 @@
+#Mon Sep 05 12:36:04 IST 2016
+content_assist_proposals_foreground=0,0,0
+spelling_locale_initialized=true
+content_assist_disabled_computers=org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000
+org.eclipse.jdt.ui.text.templates_migrated=true
+useAnnotationsPrefPage=true
+eclipse.preferences.version=1
+org.eclipse.jface.textfont=1|Courier New|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|Courier New;
+tabWidthPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+fontPropagated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+proposalOrderMigrated=true
+content_assist_proposals_background=255,255,255
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.internal.ui.navigator.layout=2
+content_assist_number_of_computers=21
+useQuickDiffPrefPage=true
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.String"/></lhs><lhs name\="com.saf.gmail.utility.Singleton"><rhs name\="com.saf.gmail.utility.Singleton"/></lhs><lhs name\="com.saf.gmail.dto.Getset"><rhs name\="com.saf.gmail.dto.Getset"/></lhs><lhs name\="com.saf.gmail.dao.LoginDao"><rhs name\="com.saf.gmail.dao.LoginDao"/></lhs><lhs name\="com.saf.mailling.dto.Getset"><rhs name\="com.saf.mailling.dto.Getset"/></lhs><lhs name\="com.saf.mailling.uitility.Singleton"><rhs name\="com.saf.mailling.uitility.Singleton"/></lhs><lhs name\="com.saf.mailling.dao.RegDao"><rhs name\="com.saf.mailling.dao.RegDao"/></lhs><lhs name\="com.saf.mailling.services.REGServices"><rhs name\="com.saf.mailling.services.REGServices"/></lhs><lhs name\="com.saf.mailling.dao.loginDao"><rhs name\="com.saf.mailling.dao.loginDao"/></lhs><lhs name\="com.saf.mailling.services.EmailServices"><rhs name\="com.saf.mailling.services.EmailServices"/></lhs><lhs name\="com.saf.mailling.services.LoginServices"><rhs name\="com.saf.mailling.services.LoginServices"/></lhs><lhs name\="com.saf.mailling.dto.LoginDto"><rhs name\="com.saf.mailling.dto.LoginDto"/></lhs><lhs name\="com.saf.mailling.services.ProfileServices"><rhs name\="com.saf.mailling.services.ProfileServices"/></lhs><lhs name\="com.saf.mailling.dao.ProfileDao"><rhs name\="com.saf.mailling.dao.ProfileDao"/></lhs><lhs name\="com.saf.mailling.dto.RegDto"><rhs name\="com.saf.mailling.dto.RegDto"/></lhs><lhs name\="com.saf.mailling.dao.EditProfileDao"><rhs name\="com.saf.mailling.dao.EditProfileDao"/></lhs><lhs name\="com.saf.mailling.services.EditProfileService"><rhs name\="com.saf.mailling.services.EditProfileService"/></lhs><lhs name\="com.saf.mailling.dto.EditpwDto"><rhs name\="com.saf.mailling.dto.EditpwDto"/></lhs><lhs name\="com.saf.mailling.services.EditpasswordServices"><rhs name\="com.saf.mailling.services.EditpasswordServices"/></lhs><lhs name\="com.saf.mailling.dao.EditPasswordDao"><rhs name\="com.saf.mailling.dao.EditPasswordDao"/></lhs></history>
+org.eclipse.jdt.ui.text.code_templates_migrated=true

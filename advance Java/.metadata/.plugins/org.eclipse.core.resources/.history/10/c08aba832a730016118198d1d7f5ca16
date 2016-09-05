@@ -1,0 +1,11 @@
+package com.saf.mailling.dao;
+
+public class EditPasswordDao {
+	
+	public void EditPass_Query(){
+		
+		
+		
+	}
+
+}

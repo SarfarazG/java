@@ -1,0 +1,26 @@
+<%@page import="com.saf.mailling.dto.LoginDto"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<% LoginDto d=(LoginDto)session.getAttribute("login");%>
+
+<h3>Welcome to G-mail <%= d.getEmail()%></h3>
+
+<h3><a href="profile">PROFILE</a></h3>
+<h3><a href="Compose.jsp">Compose</a></h3>
+<h3><a href="SentMail.jsp">Sent mail</a></h3>
+<h3><a href="Delete">Delete</a></h3>
+
+
+<br>
+<br>
+<br>
+
+</body>
+</html>

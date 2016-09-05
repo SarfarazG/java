@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Package"/>
+<fullyQualifiedTypeName name="com.saf.byRequest.Home"/>
+<fullyQualifiedTypeName name="com.saf.gmail.Initialize"/>
+<fullyQualifiedTypeName name="com.saf.gmail.controller.Reg"/>
+<fullyQualifiedTypeName name="com.saf.gmail.utility.Singleton"/>
+<fullyQualifiedTypeName name="com.saf.gmail.dao.LoginDao"/>
+<fullyQualifiedTypeName name="com.saf.gmail.dto.Getset"/>
+<fullyQualifiedTypeName name="com.saf.mail.dto.Getset"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.saf.mailling.controller.Register"/>
+<fullyQualifiedTypeName name="com.saf.mailling.dto.Getset"/>
+<fullyQualifiedTypeName name="com.saf.mailling.services.REGServices"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.PRIVATE_MEMBER"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.saf.mailling.dao.RegDao"/>
+<fullyQualifiedTypeName name="java.util.UUID"/>
+<fullyQualifiedTypeName name="org.omg.PortableInterceptor.ForwardRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="com.saf.mailling.services.EmailServices"/>
+<fullyQualifiedTypeName name="com.saf.mailling.dao.EmailDao"/>
+<fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
+<fullyQualifiedTypeName name="com.saf.mailling.services.LoginServices"/>
+<fullyQualifiedTypeName name="com.saf.mailling.dao.loginDao"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.saf.mailling.dao.ProfileDao"/>
+<fullyQualifiedTypeName name="com.saf.mailling.services.ProfileServices"/>
+<fullyQualifiedTypeName name="com.saf.mailling.dao.EditProfileDao"/>
+<fullyQualifiedTypeName name="com.saf.mailling.services.EditProfileService"/>
+<fullyQualifiedTypeName name="java.lang.ProcessBuilder.Redirect"/>
+<fullyQualifiedTypeName name="com.saf.mailling.services.EditpasswordServices"/>
+<fullyQualifiedTypeName name="com.saf.mailling.dao.EditPasswordDao"/>
+<fullyQualifiedTypeName name="com.saf.mailling.dto.EditpwDto"/>
+<fullyQualifiedTypeName name="com.saf.mailling.uitility.Singleton"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="com.saf.mailling.dto.RegDto"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.Request"/>
+<fullyQualifiedTypeName name="com.saf.mailling.dto.LoginDto"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,57 @@
+package com.saf.mailling.controller;
+
+import java.io.IOException;
+import java.lang.ProcessBuilder.Redirect;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import com.saf.mailling.dto.RegDto;
+import com.saf.mailling.services.EditProfileService;
+
+public class EditProfileController extends HttpServlet {
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		
+		HttpSession hs =req.getSession(false);
+		String Name=req.getParameter("name");
+		String Email=req.getParameter("email");
+		String Mobile=req.getParameter("mob");
+		String Branch=req.getParameter("branch");
+		String Address=req.getParameter("add");
+		String Enrollment=req.getParameter("enroll");
+		
+		RegDto rd = new RegDto();
+		rd.setName(Name);
+		rd.setEmail(Email);
+		rd.setMobile(Mobile);
+		rd.setBranch(Branch);
+		rd.setAddress(Address);
+		rd.setEno(Enrollment);
+		
+		EditProfileService eps = new EditProfileService();
+		int a=eps.EditP_Logic(rd);
+		if(a>0){
+			String ans = "suceesfully updated your profile";
+			hs.setAttribute("profileupdate",ans);
+			req.getRequestDispatcher("profile.jsp").forward(req, resp);
+		}
+		else{
+			hs.setAttribute("profileupdate","suceesfully updated your profile");
+			req.getRequestDispatcher("EditProfile.jsp").forward(req, resp);
+		}
+		
+	}
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+			
+		doPost(req, resp);
+	}
+
+}

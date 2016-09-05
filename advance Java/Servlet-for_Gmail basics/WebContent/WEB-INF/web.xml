@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Servlet-for_Gmail basics</display-name>
+  <welcome-file-list>
+    <welcome-file>Register.html</welcome-file>
+  </welcome-file-list>
+  
+  
+      <!-- Servlet for Register -->
+  
+  <servlet>
+        <servlet-name>Reg</servlet-name>
+        <servlet-class>com.saf.gmail.controller.Reg</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Reg</servlet-name>
+        <url-pattern>/display</url-pattern>
+    </servlet-mapping> 
+  
+    <!-- Servlet for login -->
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.saf.gmail.controller.Login</servlet-class>
+    </servlet>
+  <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/xyz</url-pattern>
+    </servlet-mapping> 
+    
+  <!-- Servlet for inbox -->
+    <servlet>
+        <servlet-name>Inbox</servlet-name>
+        <servlet-class>com.saf.gmail.controller.Inbox</servlet-class>
+    </servlet>
+  <servlet-mapping>
+        <servlet-name>Inbox</servlet-name>
+        <url-pattern>/inbox</url-pattern>
+    </servlet-mapping> 
+    
+    <!-- Servlet for Draft -->
+    <servlet>
+        <servlet-name>Draft</servlet-name>
+        <servlet-class>com.saf.gmail.controller.Draft</servlet-class>
+    </servlet>
+  <servlet-mapping>
+        <servlet-name>Draft</servlet-name>
+        <url-pattern>/draft</url-pattern>
+    </servlet-mapping> 
+    
+    <!-- Servlet for Trash -->
+    <servlet>
+        <servlet-name>Trash</servlet-name>
+        <servlet-class>com.saf.gmail.controller.Trash</servlet-class>
+    </servlet>
+  <servlet-mapping>
+        <servlet-name>Trash</servlet-name>
+        <url-pattern>/trash</url-pattern>
+    </servlet-mapping> 
+  
+  
+</web-app>

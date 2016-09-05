@@ -1,0 +1,5 @@
+package com.saf.mailling.services;
+
+public class EditProfileService {
+
+}

@@ -1,0 +1,17 @@
+package com.saf.mailling.services;
+
+import com.saf.mailling.dao.EditPasswordDao;
+import com.saf.mailling.dto.EditpwDto;
+import com.saf.mailling.dto.LoginDto;
+
+public class EditpasswordServices  {
+	
+	public void Editpass_Logic(LoginDto ld){
+		
+		EditPasswordDao epd = new EditPasswordDao();
+		epd.get_pass(ld);
+		
+		
+	}
+
+}

@@ -1,0 +1,36 @@
+package com.saf.mailling.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.saf.mailling.dto.RegDto;
+import com.saf.mailling.uitility.Singleton;
+
+public class EditProfileDao {
+	
+	public void EditProfile_Query(RegDto rd2){
+		
+		Singleton s = Singleton.getS();
+		Connection con = s.getCon();
+		
+		PreparedStatement pstmt = null;
+		try {
+			con.prepareStatement("update mailing.regester set NAME=? EMAIL=? MOBILE=? BRANCH=? ENROLLMENT_NO=? ADDRESS=?");
+			pstmt.setString(2,rd2.getName());
+			pstmt.setString(3, rd2.getEmail());
+			pstmt.setString(5, rd2.getAddress());
+			pstmt.setString(6, rd2.getMobile());
+			pstmt.setString(7, rd2.getBranch());
+			pstmt.setString(8, rd2.getEno());
+			
+		} catch (SQLException e) {
+		
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
+
+}

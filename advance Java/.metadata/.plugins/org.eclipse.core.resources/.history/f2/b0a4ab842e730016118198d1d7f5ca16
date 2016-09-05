@@ -1,0 +1,35 @@
+package com.saf.mailling.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.saf.mailling.dto.LoginDto;
+import com.saf.mailling.dto.RegDto;
+import com.saf.mailling.uitility.Singleton;
+
+public class EditPasswordDao {
+	
+	public void get_pass(LoginDto ld){
+		
+		Singleton s = Singleton.getS();
+		Connection con =s.getCon();
+
+		try {
+			PreparedStatement pstmt =con.prepareStatement("select * from mailing.login where EMAIL=? ");
+			pstmt.setString(1, ld.getEmail());
+			ResultSet rs = pstmt.executeQuery();
+			if(rs.next()){
+				
+				
+			}
+			
+		} catch (SQLException e) {
+			
+			e.printStackTrace();
+		}
+		
+	}
+
+}

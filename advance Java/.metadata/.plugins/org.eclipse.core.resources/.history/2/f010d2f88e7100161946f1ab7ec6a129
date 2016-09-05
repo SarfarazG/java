@@ -1,0 +1,10 @@
+package com.saf.mailling.dao;
+
+public class EditProfileDao {
+	
+	public void EditProfile_Query(){
+		
+	}
+	
+
+}

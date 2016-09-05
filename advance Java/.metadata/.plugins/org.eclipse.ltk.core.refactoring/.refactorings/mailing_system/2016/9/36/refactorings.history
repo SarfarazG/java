@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mailing_system/src/com/saf/mailling/controller/EditProfile.java&apos; to &apos;EditProfileController.java&apos;" description="Rename resource &apos;EditProfile.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/saf/mailling/controller/EditProfile.java" name="EditProfileController.java" stamp="1472875997388" updateReferences="true"/>
+</session>

@@ -1,0 +1,15 @@
+package com.saf.mailling.services;
+
+import com.saf.mailling.dao.EditPasswordDao;
+
+public class EditpasswordServices  {
+	
+	public void Editpass_Logic(EditpasswordServices eps1){
+		
+		EditPasswordDao epd = new EditPasswordDao();
+		epd.Check_pass(eps1);
+		
+		
+	}
+
+}

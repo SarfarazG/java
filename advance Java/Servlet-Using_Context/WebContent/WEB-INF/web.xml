@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Servlet-Using_Context</display-name>
+    <welcome-file-list>
+    <welcome-file>Form.html</welcome-file>
+   </welcome-file-list>
+     
+    <servlet>
+    	<servlet-name>bycontext</servlet-name>
+   	    <servlet-class>com.saf.bycontext.Demo</servlet-class>
+    </servlet>
+   <servlet-mapping>
+    	<servlet-name>bycontext</servlet-name>
+    	<url-pattern>/display</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+    	<servlet-name>Display_Servlet</servlet-name>
+   	    <servlet-class>com.saf.bycontext.Display_Servlet</servlet-class>
+    </servlet>
+   <servlet-mapping>
+    	<servlet-name>Display_Servlet</servlet-name>
+    	<url-pattern>/xyz</url-pattern>
+   </servlet-mapping>
+   
+   <!-- servlet of home -->
+   <servlet>
+    	<servlet-name>Home</servlet-name>
+   	    <servlet-class>com.saf.bycontext.Home</servlet-class>
+    </servlet>
+   <servlet-mapping>
+    	<servlet-name>Home</servlet-name>
+    	<url-pattern>/Home</url-pattern>
+   </servlet-mapping>
+   
+      <!-- servlet of about -->
+   
+   <servlet>
+    	<servlet-name>About</servlet-name>
+   	    <servlet-class>com.saf.bycontext.About</servlet-class>
+    </servlet>
+   <servlet-mapping>
+    	<servlet-name>About</servlet-name>
+    	<url-pattern>/About</url-pattern>
+   </servlet-mapping>
+   
+      <!-- servlet of Setting -->
+      
+       <servlet>
+    	<servlet-name>Seeting</servlet-name>
+   	    <servlet-class>com.saf.bycontext.Seeting</servlet-class>
+    </servlet>
+   <servlet-mapping>
+    	<servlet-name>Seeting</servlet-name>
+    	<url-pattern>/Setting</url-pattern>
+   </servlet-mapping>
+   
+  
+</web-app>

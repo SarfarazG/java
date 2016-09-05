@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Servlet-for_Gmail basics/src/com/saf/gmail/uitility&apos; to &apos;utility&apos;" description="Rename resource &apos;uitility&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/saf/gmail/uitility" name="utility" stamp="1458095942471" updateReferences="true"/>
+</session>
