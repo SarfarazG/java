@@ -1,0 +1,10 @@
+package interfaceee;
+public class Run {
+
+	public static void main(){
+		Iswitch is;
+		Iswitch is=new Ushafan();
+		is.switchon();
+	}
+	
+}

@@ -1,0 +1,8 @@
+package com.jnext.core;
+
+public class Dellcom extends Computer {
+	name ="dell";
+	public abstract class
+	
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Jnext/src/COM/SAF/I_O/Read_write_characters/nonqme.java&apos; to &apos;NegativeNumberException.java&apos;" description="Rename resource &apos;nonqme.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/COM/SAF/I_O/Read_write_characters/nonqme.java" name="NegativeNumberException.java" stamp="1449254521671" updateReferences="true"/>
+</session>

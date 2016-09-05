@@ -1,0 +1,25 @@
+package PRCO.prco;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+		Vegmarket Vm=new Vegmarket(); 
+         Vm.sellveg("potato");
+         if(v instance of Potato)
+         {
+        	 Potato p=(Potato)V;
+        	 p.makechip();
+        	 p.wash();
+         }
+         else{
+        	 Chily c=(Chily)v
+         }
+	}
+
+}

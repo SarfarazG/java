@@ -1,0 +1,20 @@
+package com.jnext.core;
+
+public abstract class Computer;
+{
+int price;
+
+
+public abstract void start();
+
+        d switchoff()
+
+                                                                              
+System.out.println("computer shutdown");
+
+}		
+
+	public computer(){
+		 price=66666;}
+	        
+}

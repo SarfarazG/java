@@ -1,0 +1,5 @@
+
+public class mobile {
+int price=5566;
+String brand= "nokia";
+}

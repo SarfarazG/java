@@ -1,0 +1,17 @@
+package PRCO.prco;
+public class Run {
+
+public static void main(){
+	
+
+
+
+Veg  v;
+v=new Potato();
+v.chop();
+v.wash();
+v=new Chily();
+v.chop();
+ }
+
+}

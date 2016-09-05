@@ -1,0 +1,16 @@
+package PRCO.prco;
+
+public class Vegmarket {
+Veg v;
+public void sellveg(){
+	if(s.equal("potato"))
+	{
+		v=new potato();
+	}
+	else 
+	{
+		v
+	}
+}
+
+}

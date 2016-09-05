@@ -1,0 +1,15 @@
+
+public class run {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ 
+		Person p=new person();
+		p.m=new moblie();
+		System.out.println(p.m.brand);
+	}
+
+}

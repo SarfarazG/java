@@ -1,0 +1,10 @@
+package PRCO;
+
+public class Chily extend veg{
+	public  void bhaji() {
+		System.out.println("you make a bhaji");
+		
+
+	}
+
+}

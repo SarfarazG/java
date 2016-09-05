@@ -1,0 +1,16 @@
+package PRCO.prco;
+
+public class Vegmarket {
+Veg v;
+public Ved sellveg(String S){
+	if(S.equal("potato"))
+	{
+		v=new Potato();
+	}
+	else 
+	{
+		v=new Chily();
+	}
+}
+
+}

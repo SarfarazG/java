@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.mylyn.tasks.ui.workingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1439525806348_6" label="bhavin" name="bhavin"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1439320215247_0" label="Window Working Set" name="Aggregate for window 1439320215247"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1439400015819_1" label="Window Working Set" name="Aggregate for window 1439400015819"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1439405131875_2" label="Window Working Set" name="Aggregate for window 1439405131875"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1439429368363_3" label="Window Working Set" name="Aggregate for window 1439429368363"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1439525348664_4" label="Window Working Set" name="Aggregate for window 1439525348664"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1439525731578_5" label="Window Working Set" name="Aggregate for window 1439525731578">
+<workingSet IMemento.internal.id="bhavin"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1439526040999_7" label="Window Working Set" name="Aggregate for window 1439526040999"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1443396632766_8" label="Window Working Set" name="Aggregate for window 1443396632766"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1443396912054_9" label="Window Working Set" name="Aggregate for window 1443396912054"/>
+</workingSetManager>

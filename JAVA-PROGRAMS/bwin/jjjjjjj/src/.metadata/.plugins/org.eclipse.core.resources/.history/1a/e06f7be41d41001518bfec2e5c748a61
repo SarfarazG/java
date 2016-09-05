@@ -1,0 +1,9 @@
+package PRCO;
+
+public class Potato extend Veg {
+
+	/**
+	 * @param args
+	 */
+	
+}

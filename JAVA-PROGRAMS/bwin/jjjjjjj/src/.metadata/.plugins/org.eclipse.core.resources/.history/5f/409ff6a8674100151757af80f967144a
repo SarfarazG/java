@@ -1,0 +1,18 @@
+package interfaceee;
+
+public class Run {
+
+	/**
+	 * @param args
+	 */
+	public void switchon() {
+		// TODO Auto-generated method stub
+System.out.println("fan is on");
+	}
+
+	public void switchoff() {
+		// TODO Auto-generated method stub
+System.out.println("fan is off");
+	}
+
+}

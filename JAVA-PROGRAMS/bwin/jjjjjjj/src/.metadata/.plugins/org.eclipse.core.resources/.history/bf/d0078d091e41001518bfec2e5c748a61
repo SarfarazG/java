@@ -1,0 +1,14 @@
+package PRCO;
+
+public class Potato extend  veg{
+	public  void makechip() {
+		System.out.println("you make a chip");
+		
+
+	}
+
+	/**
+	 * @param args
+	 */
+	
+}

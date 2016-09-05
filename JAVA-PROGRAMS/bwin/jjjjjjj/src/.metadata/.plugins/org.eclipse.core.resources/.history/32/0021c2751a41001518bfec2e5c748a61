@@ -1,0 +1,27 @@
+package overloding;
+
+public class Cals {
+
+	/**
+	 * @param args 
+	 */
+public void add() {
+		System.out.println("jjj");
+
+	}
+public void add(int i) {
+	System.out.println(i);
+
+}
+public void add(int i,int j) {
+	int k=i+j;
+	System.out.println("d"+k);
+
+}
+public void add(string j) {
+	System.out.println(j);
+	
+
+}
+
+}

@@ -1,0 +1,17 @@
+package PRCO;
+
+public class Potato veg
+{
+String name = "potato";
+	public  void makechip()
+	{
+		System.out.println("you make a chip");
+		
+
+	}
+
+	/**
+	 * @param args
+	 */
+	
+}

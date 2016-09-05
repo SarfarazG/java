@@ -1,0 +1,37 @@
+package COM.SAF.CF.SET.Hashset.h3;
+
+public class Car {
+	
+	
+	String Brand;
+	String clr;
+	int Price;
+	
+	
+	
+	public Car(String b,String c,int p) {
+
+	this.Brand=b;
+	this.clr=c;
+	this.Price=p;
+	
+	}
+	
+	@Override
+	public int hashCode() {
+
+	return 1;
+	}
+	
+	
+	@Override
+	public boolean equals(Car arg0) {
+		
+		
+	}
+
+
+
+	
+
+}

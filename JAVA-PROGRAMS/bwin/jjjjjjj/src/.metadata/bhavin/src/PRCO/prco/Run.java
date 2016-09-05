@@ -1,0 +1,13 @@
+package PRCO.prco;
+public class Run {
+
+public static void main()
+{
+	
+
+Vegmarket Vm=new Vegmarket(); 
+Veg p=Vm.sellveg("Potato");
+
+ }
+
+}

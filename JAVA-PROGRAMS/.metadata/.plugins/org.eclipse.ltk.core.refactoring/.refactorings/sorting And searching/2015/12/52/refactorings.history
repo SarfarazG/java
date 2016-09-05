@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;sorting And searching/src/com/saf/sort/bubble/main.java&apos; to &apos;test.java&apos;" description="Rename resource &apos;main.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/saf/sort/bubble/main.java" name="test.java" stamp="1450804364533" updateReferences="true"/>
+</session>
