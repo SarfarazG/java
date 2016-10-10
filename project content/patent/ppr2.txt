@@ -1,0 +1,8 @@
+1.  What Progress you have made in the Project ?
+BY Following various research paper and patents related to the my problem defination i gathered logical implimentation about the appointment scheduling scheme.
+2.  What challenge you have faced ?
+i face the challenge to make something better than what already is developed and impliment something new
+3.  What support you need ?
+logical support as well as android developer support
+4.  Which literature you have referred ?
+various research papers, websites, patents etc
